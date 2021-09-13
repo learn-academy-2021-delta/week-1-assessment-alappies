@@ -19,19 +19,19 @@
 
 // Create the code and test each of the variables provided. Expected output: "35 is below boiling point", "350 is above boiling point", "212 is at boiling point"
 
-// var temp = 35
-// var temp = 350
-// var temp = 212
+var temp = 35
+var temp = 350
+var temp = 212
 
-// var temp = 35
-// console.log(temp);
-// if(temp > 212){
-// console.log("is above boiling point");
-// } else if(temp === 212){
-// console.log("is at the boiling point")
-// } else {
-// console.log("bellow boiling point")
-// }
+var temp = 35
+console.log(temp);
+if(temp > 212){
+console.log("is above boiling point");
+} else if(temp === 212){
+console.log("is at the boiling point")
+} else {
+console.log("bellow boiling point")
+}
 
 // --------------------2) Create the code that will combine two arrays and return the length using the variables provided below. Expected output: 10
 
@@ -45,34 +45,34 @@
  // var myNumbers1 = [3, 7, 0, 36, -9]
 // var myNumbers2 = [8, -7, 22, 9, 13]
 
-// var num1 = "3"
-// console.log(num1 = "3");
-// var num2 = "7"
-// console.log(num2 = "7");
-// var num3 = "0"
-// console.log(num3 = "0");
-// var num4 = "36"
-// console.log(num36 = "36");
-// var num5 = "-9"
-// console.log(num5 = "-9");
-// var myNumbers1 = [num1, num2, num3, num4, num5]
-// console.log(myNumbers1);
-//
-// var num6 = "8"
-// console.log(num1 = "3");
-// var num7 = "7"
-// console.log(num2 = "-7");
-// var num8 = "0"
-// console.log(num3 = "22");
-// var num9 = "36"
-// console.log(num36 = "9");
-// var num10 = "13"
-// console.log(num10 = "13");
-// var myNumbers2 = [num6, num7, num8, num9, num10]
-// console.log(myNumbers2);
-//
-// console.log(myNumbers1.concat(myNumbers2));
-// console.log(myNumbers2.length + (myNumbers1.length));
+var num1 = "3"
+console.log(num1 = "3");
+var num2 = "7"
+console.log(num2 = "7");
+var num3 = "0"
+console.log(num3 = "0");
+var num4 = "36"
+console.log(num36 = "36");
+var num5 = "-9"
+console.log(num5 = "-9");
+var myNumbers1 = [num1, num2, num3, num4, num5]
+console.log(myNumbers1);
+
+var num6 = "8"
+console.log(num1 = "3");
+var num7 = "7"
+console.log(num2 = "-7");
+var num8 = "0"
+console.log(num3 = "22");
+var num9 = "36"
+console.log(num36 = "9");
+var num10 = "13"
+console.log(num10 = "13");
+var myNumbers2 = [num6, num7, num8, num9, num10]
+console.log(myNumbers2);
+
+console.log(myNumbers1.concat(myNumbers2));
+console.log(myNumbers2.length + (myNumbers1.length));
 
 
 
@@ -90,91 +90,91 @@
 // var myString2 = "delta"
 
 //
-// var myLett1 = "c"
-// console.log(myLett1);
-// var myLett2 = "h"
-// console.log(myLett2);
-// var myLett3 = "a"
-// console.log(myLett3);
-// var myLett4 = "r"
-// console.log(myLett4);
-// var myLett5 = "l"
-// console.log(myLett5);
-// var myLett6 = "i"
-// console.log(myLett6);
-// var myLett7 = "e"
-// console.log(myLett7);
-//
-// var myArray1 =[myLett1, myLett2, myLett3, myLett4, myLett5, myLett6, myLett7];
-//
-//
-// myArray1.reverse();
-// //console.log(myString1);
-//
-// var myString1 = myArray1.join('');
-// console.log(myString1);
+var myLett1 = "c"
+console.log(myLett1);
+var myLett2 = "h"
+console.log(myLett2);
+var myLett3 = "a"
+console.log(myLett3);
+var myLett4 = "r"
+console.log(myLett4);
+var myLett5 = "l"
+console.log(myLett5);
+var myLett6 = "i"
+console.log(myLett6);
+var myLett7 = "e"
+console.log(myLett7);
+
+var myArray1 =[myLett1, myLett2, myLett3, myLett4, myLett5, myLett6, myLett7];
 
 
-// var myString2 = "delta";
-// console.log(myString2);
-// //
-// var myLetter1 = "d"
-// console.log(myLetter1);
-// var myLetter2 = "e"
-// console.log(myLetter2);
-// var myLetter3 = "l"
-// console.log(myLetter3);
-// var myLetter4 = "t"
-// console.log(myLetter4);
-// var myLetter5 = "a"
-// console.log(myLetter5);
-//
-// var myArray2 = [myLetter1, myLetter2, myLetter3, myLetter4, myLetter5]
-// console.log(myArray2);
-//
-// myArray2.reverse();
-// console.log(myString2);
-//
-// var myString2 = myArray2.join('');
-// console.log(myString2);
-//
-// //
-// // // --------------------4) Create a statement that evaluates two numbers and subtracts the smaller number from the larger number using the two sets of test variables provided below. Expected output: 15, 12
+myArray1.reverse();
+//console.log(myString1);
 
-//Creat variables for number1 = 42, and number2 = 27
-//Create an "if" statement and in parenthese write if number1 is greater than number2 close parenthese, open curly brackets and write number1 subracted by number2. close curly brackets.
-//The create an "else" statment and open curly brackets and write a console log number2 minus number1.
-//Then rinse and repeat for the next set of variables.
+var myString1 = myArray1.join('');
+console.log(myString1);
 
-// // var number1 = 42
-// // var number2 = 27
 
-// var numb1 = 42
-// console.log(numb1);
+var myString2 = "delta";
+console.log(myString2);
 //
-// var numb2 = 27
-// console.log(numb2);
+var myLetter1 = "d"
+console.log(myLetter1);
+var myLetter2 = "e"
+console.log(myLetter2);
+var myLetter3 = "l"
+console.log(myLetter3);
+var myLetter4 = "t"
+console.log(myLetter4);
+var myLetter5 = "a"
+console.log(myLetter5);
+
+var myArray2 = [myLetter1, myLetter2, myLetter3, myLetter4, myLetter5]
+console.log(myArray2);
+
+myArray2.reverse();
+console.log(myString2);
+
+var myString2 = myArray2.join('');
+console.log(myString2);
+
 //
-// if(numb1 > numb2){
-//   console.log(numb1 - numb2);
-// } else {
-//   console.log(numb2 - numb1);
-// }
-// //
-// // // var number1 = 7
-// // // var number2 = 19
+// // --------------------4) Create a statement that evaluates two numbers and subtracts the smaller number from the larger number using the two sets of test variables provided below. Expected output: 15, 12
+
+// Create variables for number1 = 42, and number2 = 27
+// Create an "if" statement and in parenthese write if number1 is greater than number2 close parenthese, open curly brackets and write number1 subracted by number2. close curly brackets.
+// The create an "else" statment and open curly brackets and write a console log number2 minus number1.
+// Then rinse and repeat for the next set of variables.
+
+// var number1 = 42
+// var number2 = 27
+
+var numb1 = 42
+console.log(numb1);
+
+var numb2 = 27
+console.log(numb2);
+
+if(numb1 > numb2){
+  console.log(numb1 - numb2);
+} else {
+  console.log(numb2 - numb1);
+}
 //
-// var num1 = 7
-// console.log(num1);
-//
-// var num2 = 19
-// console.log(num2);
-//
-// if (num1 > num2) {
-//   console.log(num1 -num2);
-// } else {
-//   console.log(num2 - num1);
-// }
+// // var number1 = 7
+// // var number2 = 19
+
+var num1 = 7
+console.log(num1);
+
+var num2 = 19
+console.log(num2);
+
+if (num1 > num2) {
+  console.log(num1 -num2);
+} else {
+  console.log(num2 - num1);
+}
 // // //
 // //
 // // // --------------------5) Copy/paste your code from #4. Refactor your code to also accept non-number edge cases. Inform your user if the variable is not a number using the two sets of test variables provided below. Expected output: "Your input is not a number", 3
@@ -185,31 +185,28 @@
 // // var numberRefactor1 = 42
 // // var numberRefactor2 = "hello"
 
-// var numb1 = 42
-// console.log(numb1);
+var numb1 = 42
+console.log(numb1);
 //
-// var numb2 = "hello"
-// console.log(numb2);
+var numb2 = "hello"
+ console.log(numb2);
 //
-// if(numb1 > numb2){
-// console.log(numb1 - numb2);
+ if(numb1 > numb2){
+ console.log(numb1 - numb2);
 }
-// else if (.isNaN()) {
-// console.log("Your input is not a number");
+ console.log("Your input is not a number");
 }
-//else{
-//   console.log(numb2.isNaN("Your input is not a number."))
-// }
+else{
+   console.log(numb2.isNaN("Your input is not a number."))
+}
 
-// var numberRefactor1 = 27
-// // // var numberRefactor2 = 24
+var numberRefactor1 = 27
+var numberRefactor2 = 24
 
-// var numberRefactor1 = 27
-// console.log(numberRefactor1);
-// var numberRefactor2 = 24
-// console.log(numberRefactor2);
-// if(numberRefactor1 > numberRefactor2){
-// console.log(numberRefactor1- numberRefactor2);
-// } else {
-// console.log(numberRefactor2 - numberRefactor1);
-// }
+var numberRefactor1 = 27
+console.log(numberRefactor1);
+var numberRefactor2 = 24
+if(numberRefactor1 > numberRefactor2){
+console.log(numberRefactor1- numberRefactor2);
+ console.log(numberRefactor2 - numberRefactor1);
+}
