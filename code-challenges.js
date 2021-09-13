@@ -12,6 +12,8 @@
 var temp = 35
 // var temp = 350
 // var temp = 212
+var boilingPoint = "212"
+console.log(boilingPoint);
 
 
 
